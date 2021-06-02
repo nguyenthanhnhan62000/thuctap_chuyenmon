@@ -1,0 +1,110 @@
+C:\Users\nhanm\source\vo van\demo\demo\bin\Debug\demo.exe.config
+C:\Users\nhanm\source\vo van\demo\demo\bin\Debug\demo.exe
+C:\Users\nhanm\source\vo van\demo\demo\bin\Debug\demo.pdb
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.csprojAssemblyReference.cache
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.Properties.Resources.resources
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.csproj.GenerateResource.cache
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.csproj.CoreCompileInputs.cache
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.exe
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.pdb
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.fDangNhap.resources
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.fPhieuthue.resources
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.fQuanLi.resources
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.fNhapHang.resources
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.DTO.fXemDataHangAndTN.resources
+C:\Users\nhanm\source\vo van\demo\demo\obj\Debug\demo.fAccountProfile.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\demo.exe.config
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\demo.exe
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\demo.pdb
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fAccountProfile.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fDangNhap.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fNhapHang.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fPhieuthue.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.DTO.fXemDataHangAndTN.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.Properties.Resources.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fQuanLi.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.csproj.GenerateResource.cache
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.csproj.CoreCompileInputs.cache
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.exe
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.pdb
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fMain.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.csproj.CopyComplete
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcThuePhong.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fThongKe_1.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcAccount.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.csproj.AssemblyReference.cache
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\EnvDTE.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\stdole.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\Microsoft.MSXML.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\EntityFramework.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\EntityFramework.xml
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fHoaDon.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\RdlCompile.cache
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\RdlCompile.compiled
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcNhapHang.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcXemDuLieuHangVaTN.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcDichVu.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcHangHoa.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcKho.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcNhaCC.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcNhanVien.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcQuanLiPhong.resources
+C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.UcTienNghi.resources
