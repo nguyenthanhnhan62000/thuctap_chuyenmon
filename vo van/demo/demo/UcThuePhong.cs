@@ -817,41 +817,48 @@ namespace demo
 
         private void dtgvPhieuThue_Click(object sender, EventArgs e)
         {
-            int maPhieuThue = Convert.ToInt32(dtgvPhieuThue.SelectedCells[0].OwningRow.Cells["MaPhieuThue1"].Value.ToString());
-            int i = 0;
-            int index = -1;
-            List<PhieuThue> listPhieuThue = PhieuThueDAO.Instance.getListPhieuThueDangAndCho();
-            foreach (PhieuThue item in listPhieuThue)
-            {
-                if (maPhieuThue == item.MaPhieuThue1)
-                {
-                    index = i;
-                    break;
-                }
-                i++;
-            }
-            cbbPhieuThueDangAndCho.SelectedIndex = index;
-
-            DateTime NgayDen = Convert.ToDateTime(dtgvPhieuThue.SelectedCells[0].OwningRow.Cells["NgayDen1"].Value.ToString());
-            DateTime NgayDi = Convert.ToDateTime(dtgvPhieuThue.SelectedCells[0].OwningRow.Cells["NgayDi1"].Value.ToString());
             try
             {
-                dtpkNgayDen.Value = NgayDen;
-                dtpkNgayDi.Value = NgayDi;
-            }
-            catch (Exception)
-            {
-                dtpkNgayDen.Value = DateTime.Now;
+                int maPhieuThue = Convert.ToInt32(dtgvPhieuThue.SelectedCells[0].OwningRow.Cells["MaPhieuThue1"].Value.ToString());
+                int i = 0;
+                int index = -1;
+                List<PhieuThue> listPhieuThue = PhieuThueDAO.Instance.getListPhieuThueDangAndCho();
+                foreach (PhieuThue item in listPhieuThue)
+                {
+                    if (maPhieuThue == item.MaPhieuThue1)
+                    {
+                        index = i;
+                        break;
+                    }
+                    i++;
+                }
+                cbbPhieuThueDangAndCho.SelectedIndex = index;
+
+                DateTime NgayDen = Convert.ToDateTime(dtgvPhieuThue.SelectedCells[0].OwningRow.Cells["NgayDen1"].Value.ToString());
+                DateTime NgayDi = Convert.ToDateTime(dtgvPhieuThue.SelectedCells[0].OwningRow.Cells["NgayDi1"].Value.ToString());
                 try
                 {
+                    dtpkNgayDen.Value = NgayDen;
                     dtpkNgayDi.Value = NgayDi;
                 }
                 catch (Exception)
                 {
-                    dtpkNgayDi.Value = DateTime.Now;
+                    dtpkNgayDen.Value = DateTime.Now;
+                    try
+                    {
+                        dtpkNgayDi.Value = NgayDi;
+                    }
+                    catch (Exception)
+                    {
+                        dtpkNgayDi.Value = DateTime.Now;
+                    }
+
                 }
+            }
+            catch (Exception)
+            {
+            }
                
-            }        
             
         }
 
@@ -871,9 +878,15 @@ namespace demo
                 }
                 catch (Exception)
                 {
-                    dtpkNgayDen.Value = DateTime.Now;
-
-                    //dtpkNgayDi.Value = pt.NgayDi1;
+                    try
+                    {
+                        dtpkNgayDen.Value = DateTime.Now;
+                        dtpkNgayDi.Value = pt.NgayDi1;
+                    }
+                    catch (Exception)
+                    {
+                    }
+                
                 }
               
 

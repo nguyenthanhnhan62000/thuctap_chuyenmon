@@ -39,8 +39,63 @@ namespace demo
         }
         public void LoadListHang()
         {
-            dtgvHangHoa.DataSource = HangDAO.Instance.getListHang();
+            listHangHoa.DataSource = HangDAO.Instance.getListHang();
         }
 
+        private void btnAddHang_Click(object sender, EventArgs e)
+        {
+
+            String maH = txbMaH.Text;
+            String tenH = txbTenH.Text;
+            String dvt = txbDvt.Text;
+            int  soLuong = Convert.ToInt32(txbSoL.Text);
+         
+            float gia = (float)Convert.ToDouble(txbGia.Text);
+
+            if (HangDAO.Instance.InsertHang(maH, tenH, dvt, gia,soLuong))
+            {
+                MessageBox.Show("Thêm thành công");
+                LoadListHang();
+            }
+            else
+            {
+                MessageBox.Show("Thêm thất bại");
+            }
+        }
+
+        private void btnEditHang_Click(object sender, EventArgs e)
+        {
+            String maH = txbMaH.Text;
+            String tenH = txbTenH.Text;
+            String dvt = txbDvt.Text;
+            int soLuong = Convert.ToInt32(txbSoL.Text);
+
+            float gia = (float)Convert.ToDouble(txbGia.Text);
+
+            if (HangDAO.Instance.EditHang(maH, tenH, dvt, gia, soLuong))
+            {
+                MessageBox.Show("Sửa thành công");
+                LoadListHang();
+            }
+            else
+            {
+                MessageBox.Show("Sửa thất bại");
+            }
+        }
+
+        private void btnDeleteHang_Click(object sender, EventArgs e)
+        {
+            String maH = txbMaH.Text;
+        
+            if (HangDAO.Instance.DeleteHang(maH))
+            {
+                MessageBox.Show("xóa thành công");
+                LoadListHang();
+            }
+            else
+            {
+                MessageBox.Show("xóa thất bại");
+            }
+        }
     }
 }

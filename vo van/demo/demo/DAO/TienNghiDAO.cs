@@ -13,13 +13,27 @@ namespace demo.DAO
 
             private static TienNghiDAO instance;
 
-            public static TienNghiDAO Instance
+            public static TienNghiDAO Instance 
             {
                 get { if (instance == null) instance = new TienNghiDAO(); return instance; }
                 private set => instance = value;
 
             }
-
+        public bool InsertTN(String MaTN, String TenTN, String TinhTrang, int SLHienCo, int Gia)
+        {
+            int i = DataProvider.Instance.ExecuteNonQuery("	INSERT dbo.TIENNHGI( MATN ,TENTN ,TINHTRANGTN ,SOLUONGHIENCO ,GIA , MAKHO) VALUES  ( '"+MaTN+"' ,  N'"+TenTN+"' ,  N'"+TinhTrang+"' ,"+SLHienCo+" , "+Gia+" , 'MK02' )");
+            return i > 0;
+        }
+        public bool EditTN(String MaTN, String TenTN, String TinhTrang, int SLHienCo, int Gia)
+        {
+            int i = DataProvider.Instance.ExecuteNonQuery("UPDATE dbo.TIENNHGI SET TENTN=N'" + TenTN + "', TINHTRANGTN =N'" + TinhTrang + "',SOLUONGHIENCO =" + SLHienCo + ",GIA =" + Gia + " WHERE MATN='" + MaTN + "'");
+            return i > 0;
+        }
+        public bool DeleteTN(String MaTN)
+        {
+            int i = DataProvider.Instance.ExecuteNonQuery("DELETE dbo.TIENNHGI WHERE MATN= '" + MaTN + "'");
+            return i > 0;
+        }
 
         public List<TienNghi> getListTienNghi()
         {

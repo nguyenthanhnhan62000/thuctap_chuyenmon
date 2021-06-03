@@ -29,7 +29,7 @@ namespace demo
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
@@ -48,9 +48,9 @@ namespace demo
             this.labelX16 = new DevComponents.DotNetBar.LabelX();
             this.groupPanel9 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.groupPanel26 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.btnEditAccount = new DevComponents.DotNetBar.ButtonX();
-            this.btnAddAccount = new DevComponents.DotNetBar.ButtonX();
-            this.btnDeleteAccount = new DevComponents.DotNetBar.ButtonX();
+            this.btnEditTN = new DevComponents.DotNetBar.ButtonX();
+            this.btnAddTN = new DevComponents.DotNetBar.ButtonX();
+            this.btnDeleteTN = new DevComponents.DotNetBar.ButtonX();
             this.groupPanel25 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.btnTimKiemKh = new DevComponents.DotNetBar.ButtonX();
             this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -181,14 +181,14 @@ namespace demo
             // 
             this.dtgvTienNghi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvTienNghi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvTienNghi.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvTienNghi.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvTienNghi.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgvTienNghi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dtgvTienNghi.Location = new System.Drawing.Point(0, 0);
@@ -376,9 +376,9 @@ namespace demo
             // 
             this.groupPanel26.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel26.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel26.Controls.Add(this.btnEditAccount);
-            this.groupPanel26.Controls.Add(this.btnAddAccount);
-            this.groupPanel26.Controls.Add(this.btnDeleteAccount);
+            this.groupPanel26.Controls.Add(this.btnEditTN);
+            this.groupPanel26.Controls.Add(this.btnAddTN);
+            this.groupPanel26.Controls.Add(this.btnDeleteTN);
             this.groupPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupPanel26.Location = new System.Drawing.Point(0, 0);
             this.groupPanel26.Name = "groupPanel26";
@@ -406,41 +406,44 @@ namespace demo
             this.groupPanel26.TabIndex = 1;
             this.groupPanel26.Text = "Chức Năng";
             // 
-            // btnEditAccount
+            // btnEditTN
             // 
-            this.btnEditAccount.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnEditAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditAccount.Image = global::demo.Properties.Resources.Modify;
-            this.btnEditAccount.ImageFixedSize = new System.Drawing.Size(40, 40);
-            this.btnEditAccount.Location = new System.Drawing.Point(327, 3);
-            this.btnEditAccount.Name = "btnEditAccount";
-            this.btnEditAccount.Size = new System.Drawing.Size(144, 55);
-            this.btnEditAccount.TabIndex = 2;
-            this.btnEditAccount.Text = "Sửa";
+            this.btnEditTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnEditTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditTN.Image = global::demo.Properties.Resources.Modify;
+            this.btnEditTN.ImageFixedSize = new System.Drawing.Size(40, 40);
+            this.btnEditTN.Location = new System.Drawing.Point(327, 3);
+            this.btnEditTN.Name = "btnEditTN";
+            this.btnEditTN.Size = new System.Drawing.Size(144, 55);
+            this.btnEditTN.TabIndex = 2;
+            this.btnEditTN.Text = "Sửa";
+            this.btnEditTN.Click += new System.EventHandler(this.btnEditTN_Click);
             // 
-            // btnAddAccount
+            // btnAddTN
             // 
-            this.btnAddAccount.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAddAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAccount.Image = global::demo.Properties.Resources.Add1;
-            this.btnAddAccount.ImageFixedSize = new System.Drawing.Size(40, 40);
-            this.btnAddAccount.Location = new System.Drawing.Point(89, 3);
-            this.btnAddAccount.Name = "btnAddAccount";
-            this.btnAddAccount.Size = new System.Drawing.Size(141, 55);
-            this.btnAddAccount.TabIndex = 0;
-            this.btnAddAccount.Text = "Thêm ";
+            this.btnAddTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAddTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddTN.Image = global::demo.Properties.Resources.Add1;
+            this.btnAddTN.ImageFixedSize = new System.Drawing.Size(40, 40);
+            this.btnAddTN.Location = new System.Drawing.Point(89, 3);
+            this.btnAddTN.Name = "btnAddTN";
+            this.btnAddTN.Size = new System.Drawing.Size(141, 55);
+            this.btnAddTN.TabIndex = 0;
+            this.btnAddTN.Text = "Thêm ";
+            this.btnAddTN.Click += new System.EventHandler(this.btnAddTN_Click);
             // 
-            // btnDeleteAccount
+            // btnDeleteTN
             // 
-            this.btnDeleteAccount.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnDeleteAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteAccount.Image = global::demo.Properties.Resources.Delete;
-            this.btnDeleteAccount.ImageFixedSize = new System.Drawing.Size(40, 40);
-            this.btnDeleteAccount.Location = new System.Drawing.Point(570, 3);
-            this.btnDeleteAccount.Name = "btnDeleteAccount";
-            this.btnDeleteAccount.Size = new System.Drawing.Size(130, 55);
-            this.btnDeleteAccount.TabIndex = 1;
-            this.btnDeleteAccount.Text = "Xóa";
+            this.btnDeleteTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDeleteTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteTN.Image = global::demo.Properties.Resources.Delete;
+            this.btnDeleteTN.ImageFixedSize = new System.Drawing.Size(40, 40);
+            this.btnDeleteTN.Location = new System.Drawing.Point(570, 3);
+            this.btnDeleteTN.Name = "btnDeleteTN";
+            this.btnDeleteTN.Size = new System.Drawing.Size(130, 55);
+            this.btnDeleteTN.TabIndex = 1;
+            this.btnDeleteTN.Text = "Xóa";
+            this.btnDeleteTN.Click += new System.EventHandler(this.btnDeleteTN_Click);
             // 
             // groupPanel25
             // 
@@ -532,9 +535,9 @@ namespace demo
         private DevComponents.DotNetBar.LabelX labelX16;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel9;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel26;
-        private DevComponents.DotNetBar.ButtonX btnEditAccount;
-        private DevComponents.DotNetBar.ButtonX btnAddAccount;
-        private DevComponents.DotNetBar.ButtonX btnDeleteAccount;
+        private DevComponents.DotNetBar.ButtonX btnEditTN;
+        private DevComponents.DotNetBar.ButtonX btnAddTN;
+        private DevComponents.DotNetBar.ButtonX btnDeleteTN;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel25;
         private DevComponents.DotNetBar.ButtonX btnTimKiemKh;
         private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;

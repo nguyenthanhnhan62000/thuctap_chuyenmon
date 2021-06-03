@@ -18,7 +18,6 @@ C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\demo.exe
 C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\bin\Debug\demo.pdb
 C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fAccountProfile.resources
 C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fDangNhap.resources
-C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fNhapHang.resources
 C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.fPhieuthue.resources
 C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.DTO.fXemDataHangAndTN.resources
 C:\Users\nhanm\OneDrive\Desktop\vo van\vo van\demo\demo\obj\Debug\demo.Properties.Resources.resources

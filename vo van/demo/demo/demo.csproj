@@ -144,12 +144,6 @@
     <Compile Include="fMain.Designer.cs">
       <DependentUpon>fMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="fNhapHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fNhapHang.Designer.cs">
-      <DependentUpon>fNhapHang.cs</DependentUpon>
-    </Compile>
     <Compile Include="fPhieuthue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -264,9 +258,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fMain.resx">
       <DependentUpon>fMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fNhapHang.resx">
-      <DependentUpon>fNhapHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fPhieuthue.resx">
       <DependentUpon>fPhieuthue.cs</DependentUpon>

@@ -57,30 +57,35 @@ namespace demo
         public int ExecuteNonQuery(String query, object[] parameter = null)
         {
             int data = 0;
-            using (SqlConnection connection = new SqlConnection(connectionStr))
-            {
-                connection.Open();
-
-                SqlCommand command = new SqlCommand(query, connection);
-
-                //command.Parameters.AddWithValue("@userName", id);
-                if (parameter != null)
+           
+        
+                using (SqlConnection connection = new SqlConnection(connectionStr))
                 {
-                    String[] listPara = query.Split(' ');
-                    int i = 0;
-                    foreach (var item in listPara)
+                    connection.Open();
+
+                    SqlCommand command = new SqlCommand(query, connection);
+
+                    //command.Parameters.AddWithValue("@userName", id);
+                    if (parameter != null)
                     {
-                        if (item.Contains('@'))
+                        String[] listPara = query.Split(' ');
+                        int i = 0;
+                        foreach (var item in listPara)
                         {
-                            command.Parameters.AddWithValue(item, parameter[i]);
-                            i++;
+                            if (item.Contains('@'))
+                            {
+                                command.Parameters.AddWithValue(item, parameter[i]);
+                                i++;
+                            }
                         }
                     }
+                    data = command.ExecuteNonQuery();
+                    connection.Close();
+                
                 }
-                data = command.ExecuteNonQuery();
-                connection.Close();
-                return data;
-            }
+          
+            return data;
+
         }
 
 

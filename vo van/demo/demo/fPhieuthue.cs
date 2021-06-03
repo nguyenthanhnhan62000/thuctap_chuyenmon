@@ -429,8 +429,8 @@ namespace demo
 
         private void DatHangToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fNhapHang f = new fNhapHang();
-            f.ShowDialog();
+            //fNhapHang f = new fNhapHang();
+            //f.ShowDialog();
         }
 
         private void xemDuLieuToolStripMenuItem_Click(object sender, EventArgs e)
